@@ -41,12 +41,12 @@ export default function ContactPage() {
             {/* Info */}
             <div className="contact-info">
               <h2>Reach out to our studio</h2>
-              <p>We're a small team of passionate potters based in Jaipur. Whether you have questions about a product, need help with an order, or want to commission a custom piece — we'd love to talk.</p>
+              <p>We're a small team of passionate potters based in Greater Noida. Whether you have questions about a product, need help with an order, or want to commission a custom piece — we'd love to talk.</p>
 
               {[
                 {
                   label: 'Visit Our Studio',
-                  detail: '14, Pottery Lane, Near Sanganer,\nJaipur, Rajasthan — 302029',
+                  detail: 'Shop no. 123, Greater Noida West, Uttar Pradesh — 201306',
                   icon: <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>,
                 },
                 {
@@ -56,7 +56,7 @@ export default function ContactPage() {
                 },
                 {
                   label: 'Call Us',
-                  detail: '+91 94140 12345\nMon–Sat, 10am–6pm IST',
+                  detail: '+91 97111 12345\nMon–Sat, 10am–6pm IST',
                   icon: <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>,
                 },
               ].map(item => (
