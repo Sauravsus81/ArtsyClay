@@ -34,7 +34,7 @@ export default function Navbar() {
       <nav className={`site-nav${scrolled ? ' scrolled' : ''}`}>
         {/* Logo */}
         <Link to="/" className="nav-logo">
-          Terrac<span>è</span>
+          Artsy Clay<span></span>
         </Link>
 
         {/* Desktop links */}

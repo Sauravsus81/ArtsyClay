@@ -8,7 +8,7 @@ export function ToastProvider({ children }) {
   const showToast = useCallback((msg, type = 'check') => {
     const id = Date.now();
     setToasts(t => [...t, { id, msg, type }]);
-    setTimeout(() => setToasts(t => t.filter(x => x.id !== id)), 3000);
+    setTimeout(() => setToasts(t => t.filter(x => x.id !== id)), 3010);
   }, []);
 
   return (

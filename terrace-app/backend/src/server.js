@@ -6,10 +6,10 @@ const ordersRouter = require('./routes/orders');
 const miscRouter = require('./routes/misc');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5010;
 
 // Middleware
-app.use(cors({ origin: ['http://localhost:3000', 'http://localhost:5173'] }));
+app.use(cors({ origin: ['http://localhost:3010', 'http://localhost:5173'] }));
 app.use(express.json());
 
 // Routes
@@ -19,7 +19,7 @@ app.use('/api', miscRouter);
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'Terracè API running', timestamp: new Date().toISOString() });
+  res.json({ status: 'ok', message: 'Arts API running', timestamp: new Date().toISOString() });
 });
 
 // 404
@@ -34,7 +34,7 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`\n🏺 Terracè API running on http://localhost:${PORT}`);
+  console.log(`\n🏺 Artsy Clay API running on http://localhost:${PORT}`);
   console.log(`   GET  /api/products`);
   console.log(`   GET  /api/products/featured`);
   console.log(`   GET  /api/products/:id`);

@@ -268,7 +268,7 @@ export default function HomePage() {
           </div>
           <div className="testimonials-grid">
             {[
-              { initial: 'P', name: 'Priya Sharma', loc: 'Mumbai', color: 'var(--clay)', rating: 5, text: '"Each morning I wrap my hands around my Terracè mug and feel the warmth — not just of the tea, but of the hands that shaped it. Truly special."' },
+              { initial: 'P', name: 'Priya Sharma', loc: 'Mumbai', color: 'var(--clay)', rating: 5, text: '"Each morning I wrap my hands around my Artsy Clay mug and feel the warmth — not just of the tea, but of the hands that shaped it. Truly special."' },
               { initial: 'A', name: 'Arjun Mehta', loc: 'Bangalore', color: 'var(--sage)', rating: 5, text: '"The sage bowl is absolutely stunning. The glaze has this beautiful depth and the weight in the hand is just perfect. I gift these to everyone."' },
               { initial: 'K', name: 'Kavya Reddy', loc: 'Hyderabad', color: 'var(--lavender)', rating: 4.5, text: '"Ordered the wabi-sabi tea set as a wedding gift. The packaging was gorgeous and the set itself is a true heirloom. Will be ordering for myself next!"' },
             ].map(t => (

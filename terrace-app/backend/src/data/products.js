@@ -1,4 +1,4 @@
-// products.js — Terracè product catalog
+// products.js — Artsy Clay product catalog
 const products = [
   {
     id: 1,

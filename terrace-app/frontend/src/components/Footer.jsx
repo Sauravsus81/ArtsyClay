@@ -23,7 +23,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <div className="nav-logo">Terrac<span style={{ color: 'var(--clay)', fontStyle: 'italic' }}>è</span></div>
+            <div className="nav-logo">Artsy Clay<span style={{ color: 'var(--clay)', fontStyle: 'italic' }}></span></div>
             <p style={{ marginTop: '1rem' }}>
               Hand-thrown ceramics crafted by artisans in Jaipur. Every piece tells a story of earth, fire, and human care.
             </p>
@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} Terracè Ceramics. All rights reserved. Made with love in Jaipur.</p>
+          <p>© {new Date().getFullYear()} Artsy Clay Ceramics. All rights reserved. Made with love in Jaipur.</p>
           <p style={{ fontSize: '0.72rem', opacity: 0.5 }}>Handcrafted · Wood-fired · Food-safe · Made in India</p>
         </div>
       </div>

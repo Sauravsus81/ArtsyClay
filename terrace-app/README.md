@@ -1,4 +1,4 @@
-# Terracè Ceramics — React + Node.js
+# Artsy Clay Ceramics — React + Node.js
 
 A full-stack e-commerce web app for a handcrafted ceramics shop, built with React (Vite) on the frontend and Node.js + Express on the backend.
 
@@ -7,7 +7,7 @@ A full-stack e-commerce web app for a handcrafted ceramics shop, built with Reac
 ## Project Structure
 
 ```
-terrace-app/
+artsyclay-app/
 ├── backend/               # Node.js + Express API
 │   ├── src/
 │   │   ├── server.js      # Entry point
@@ -43,7 +43,7 @@ terrace-app/
     │       ├── api.js             # All fetch calls to the backend
     │       └── svgHelpers.jsx     # Ceramic SVG illustrations (mug, bowl, plate…)
     ├── index.html
-    ├── vite.config.js             # Proxy /api → localhost:5000
+    ├── vite.config.js             # Proxy /api → localhost:5010
     └── package.json
 ```
 
@@ -66,7 +66,7 @@ npm run dev        # uses nodemon, hot-reload
 # or: npm start
 ```
 
-API will be available at **http://localhost:5000**
+API will be available at **http://localhost:5010**
 
 #### API Endpoints
 
@@ -90,7 +90,7 @@ npm install
 npm run dev
 ```
 
-Frontend will be at **http://localhost:3000**
+Frontend will be at **http://localhost:3010**
 
 Vite proxies all `/api/*` requests to the backend automatically — no CORS issues in dev.
 

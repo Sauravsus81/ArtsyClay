@@ -32,7 +32,7 @@ function cartReducer(state, action) {
 }
 
 const initialState = {
-  items: JSON.parse(localStorage.getItem('terrace_cart') || '[]'),
+  items: JSON.parse(localStorage.getItem('artsyclay_cart') || '[]'),
   isOpen: false,
 };
 
@@ -40,7 +40,7 @@ export function CartProvider({ children }) {
   const [state, dispatch] = useReducer(cartReducer, initialState);
 
   useEffect(() => {
-    localStorage.setItem('terrace_cart', JSON.stringify(state.items));
+    localStorage.setItem('artsyclay_cart', JSON.stringify(state.items));
   }, [state.items]);
 
   const totalQty = state.items.reduce((s, i) => s + i.qty, 0);

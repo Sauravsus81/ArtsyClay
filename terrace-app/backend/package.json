@@ -1,7 +1,7 @@
 {
-  "name": "terrace-backend",
+  "name": "artsyclay-backend",
   "version": "1.0.0",
-  "description": "Terracè Ceramics - Node.js Backend",
+  "description": "Artsy Clay Ceramics - Node.js Backend",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
